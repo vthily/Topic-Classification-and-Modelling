@@ -1,0 +1,41 @@
+Below are 20 topics generated from the corpus: 
+ 
+Topic 0 plane air north military flight base marine italian italy aircraft
+Topic 1 going know want get thing see really good right question
+Topic 2 bank economy japan asia financial south asian currency korea foreign
+Topic 3 student police military protest city force army violence jakarta killed
+Topic 4 olympic nagano game olympics medal gold second japan sport winter
+Topic 5 percent market company stock price rate point million worker dollar
+Topic 6 war oil attack threat policy force power weapon america target
+Topic 7 woman school old child life viagra men story drug medium
+Topic 8 seemed never ago long material university become might optional follows
+Topic 9 china chinese right human beijing algeria visit european foreign issue
+Topic 10 weapon iraqi saddam inspector council baghdad annan military inspection hussein
+Topic 11 game team play player super goal bowl denver green packer
+Topic 12 lewinsky lawyer starr white case court jury monica jones kaczynski
+Topic 13 party election india hindu political congress parliament vajpayee vote nationalist
+Topic 14 tobacco republican congress industry company bill tax senate smoking cigarette
+Topic 15 indonesia suharto indonesian reform jakarta imf political habibie fund rupiah
+Topic 16 secretary wednesday told administration meeting tuesday reporter asked spokesman decision
+Topic 17 israel palestinian israeli netanyahu peace talk albright prime arafat west
+Topic 18 cuba pope visit cuban church castro john paul city mass
+Topic 19 india nuclear pakistan test weapon indian sanction arm bomb pakistani
+
+An economy is an area of the production, distribution, or trade, and consumption of goods and services by different agents in a given geographical location. Understood in its broadest sense, 'The economic is defined as a social domain that emphasizes the practices, discourses, and material expressions associated with the production, use and management of resources'. Economic agents can be individuals, businesses, organizations, or governments. Economic transactions occur when two parties agree to the value or price of the transacted good or service, commonly expressed in a certain currency, but monetary transactions are only a small part of the economic domain.
+
+Economic activity is spurred by production which uses natural resources, labor, and capital. It has changed over time due to technology (automation, accelerator of process, reduction of cost functions), innovation (new products, services, processes, new markets, expands markets, diversification of markets, niche markets, increases revenue functions) such as that which produces intellectual property and changes in industrial relations (for example, child labor being replaced in some parts of the world with universal access to education).
+
+
+
+economy area production distribution trade consumption good service different agent given geographical location understood broadest sense economic defined social domain emphasizes practice discourse material expression associated production use management resource economic agent individual business organization government economic transaction occur two party agree value price transacted good service commonly expressed certain currency monetary transaction small part economic domain economic activity spurred production us natural resource labor capital changed time due technology automation accelerator process reduction cost function innovation new product service process new market expands market diversification market niche market increase revenue function produce intellectual property change industrial relation example child labor replaced part world universal access education
+
+Topic 0: 0.0346540289976 india nuclear pakistan test weapon indian sanction arm bomb pakistani
+Topic 2: 0.172094310087 going know want get thing see really good right question
+Topic 5: 0.347592043252 olympic nagano game olympics medal gold second japan sport winter
+Topic 6: 0.100901759414 percent market company stock price rate point million worker dollar
+Topic 7: 0.0163083207984 war oil attack threat policy force power weapon america target
+Topic 8: 0.180328168361 woman school old child life viagra men story drug medium
+Topic 9: 0.0198298534786 seemed never ago long material university become might optional follows
+Topic 13: 0.0117901372676 lewinsky lawyer starr white case court jury monica jones kaczynski
+Topic 14: 0.0458610917942 party election india hindu political congress parliament vajpayee vote nationalist
+Topic 16: 0.0376852749626 indonesia suharto indonesian reform jakarta imf political habibie fund rupiah
