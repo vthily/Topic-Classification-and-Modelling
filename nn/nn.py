@@ -23,7 +23,7 @@ logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S
 
 logging.info("Initialization")
 inpath='../corpus/TDT2_top20'
-outpath='/nn/output.txt'
+outpath='output.txt'
 
 stop = set(stopwords.words('english') + get_stop_words('en'))
 exclude = set(string.punctuation)
@@ -91,7 +91,7 @@ print(metrics.classification_report(target_test, predicted, target_names = all_t
 
 logging.info('Writing output')
 #predict new doc
-outfile = open('/nn/output.txt', 'w+')
+outfile = open(outpath, 'w+')
 
 for afile in glob.glob("../doc_for_test/*.txt"):
     

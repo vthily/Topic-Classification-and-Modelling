@@ -16,7 +16,7 @@ logging.info('Initialization')
 
 inpath = "../corpus/TDT2_top20"
 doc_for_test = '../doc_for_test/economy.txt'
-outpath = "/LDA/output.txt"
+outpath = "output.txt"
 
 stop = set(stopwords.words('english') + get_stop_words('en'))
 exclude = set(string.punctuation)
@@ -33,11 +33,13 @@ def clean(doc, stop=stop, exclude=exclude, lemma=lemma, tokenizer=tokenizer):
 
 texts = []
 for dirr in os.listdir(inpath):
-    for afile in glob.glob(inpath + '/{}'.format(dirr) + '*.txt'):
+    for afile in glob.glob(inpath + '/{}'.format(dirr) + '/*.txt'):
         adoc = open(afile)
         text = clean(adoc.read()).split()
         texts.append(text)
         adoc.close()
+
+logging.info(texts[0])
 
 logging.info('Creating dictionary')
 
