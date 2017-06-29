@@ -1,5 +1,6 @@
 import glob, re, string, logging
 import numpy as np
+
 from sklearn.datasets import load_files
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -7,10 +8,13 @@ from sklearn.pipeline import Pipeline
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
+
 from stop_words import get_stop_words
+
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
+
 import matplotlib.pyplot as plt
 
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)

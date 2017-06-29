@@ -1,9 +1,13 @@
 import glob, os, string, re
+
 from stop_words import get_stop_words
+
 from gensim import corpora, models
+
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
+
 import logging
 
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
@@ -29,8 +33,7 @@ def clean(doc, stop=stop, exclude=exclude, lemma=lemma, tokenizer=tokenizer):
 
 texts = []
 for dirr in os.listdir(inpath):
-    os.chdir(inpath + '/{}'.format(dirr))
-    for afile in glob.glob('*.txt'):
+    for afile in glob.glob(inpath + '/{}'.format(dirr) + '*.txt'):
         adoc = open(afile)
         text = clean(adoc.read()).split()
         texts.append(text)
